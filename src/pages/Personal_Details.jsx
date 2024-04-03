@@ -17,6 +17,7 @@ function Personal_Details() {
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
           placeholder="21CB***"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Register No:
@@ -25,6 +26,7 @@ function Personal_Details() {
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
           placeholder="9217211130**"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Name:
@@ -32,6 +34,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Date of Birth:
@@ -39,6 +42,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
           placeholder="DD/MM/YYYY"
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
@@ -49,6 +53,7 @@ function Personal_Details() {
           type="file"
           name=""
           id=""
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Father Name:
@@ -56,6 +61,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Mother Name:
@@ -63,6 +69,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2  xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Father Occupation:
@@ -70,6 +77,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Mother Occupation:
@@ -77,6 +85,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Student Phone No:
@@ -84,6 +93,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Father Phone No:
@@ -91,6 +101,7 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
           Mother Phone No:
@@ -98,9 +109,21 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="text"
+          required
         />
         <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
-          Mail id:
+          Primary Mail id:
+        </label>
+        <input
+          className="rounded-lg mt-2  xs:h-10 lg:h-14 focus:outline-purple-600"
+          type="email"
+          name=""
+          id=""
+          placeholder="*****@gmail.com"
+          required
+        />
+        <label className="font-content xs:text-lg  lg:text-2xl text-purple-600">
+          Secondary Mail id:
         </label>
         <input
           className="rounded-lg mt-2  xs:h-10 lg:h-14 focus:outline-purple-600"
@@ -115,8 +138,9 @@ function Personal_Details() {
         <input
           className="rounded-lg mt-2 xs:h-10 lg:h-14 focus:outline-purple-600"
           type="textarea"
+          required
         />
-        <input className=" lg:text-xl border-2 border-purple-600 hover:bg-purple-400 p-3 lg:w-[300px] xs:w-[140px] xs:ml-[60px] lg:ml-[240px] xs:mt-[20px] sm:w-14 rounded-full" type="button" value="Next" />
+        <a href="/Marks"><input className=" lg:text-xl border-2 border-purple-600 hover:bg-purple-400 p-3 lg:w-[300px] xs:w-[140px] xs:ml-[60px] lg:ml-[240px] xs:mt-[20px] sm:w-14 rounded-full" type="button" value="Next"/></a>
       </form>
     </>
   );
